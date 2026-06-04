@@ -32,7 +32,7 @@ export default function Education() {
         </div>
 
         {/* Undergrad card */}
-        <div className="bg-gradient-to-br from-pink-50 to-rose-50 border border-pink-100 rounded-2xl p-8 mb-8">
+       <div className="bg-pink-50 border border-pink-100 rounded-2xl p-8 mb-8">
           <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
             <div>
               <div className="inline-flex items-center gap-2 bg-fuchsia-50 text-fuchsia-500 border border-fuchsia-100 text-xs font-semibold px-3 py-1 rounded-full mb-3">
@@ -62,7 +62,7 @@ export default function Education() {
         </div>
 
         {/* Masters card */}
-        <div className="bg-gradient-to-br from-pink-50 to-rose-50 border border-pink-100 rounded-2xl p-8 mb-8">
+        <div className="bg-pink-50 border border-pink-100 rounded-2xl p-8 mb-8">
           <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
             <div>
               <div className="inline-flex items-center gap-2 bg-fuchsia-50 text-fuchsia-500 border border-fuchsia-100 text-xs font-semibold px-3 py-1 rounded-full mb-3">
@@ -92,7 +92,7 @@ export default function Education() {
         </div>
 
         {/* Coursework */}
-        <div className="bg-gradient-to-br from-pink-50 to-rose-50 border border-pink-100 rounded-2xl p-8 mb-8">
+        <div className="bg-pink-50 border border-pink-100 rounded-2xl p-8 mb-8">
           <p className="text-sm font-semibold text-gray-500 uppercase tracking-widest mb-4">
             Relevant Coursework
           </p>
@@ -108,29 +108,8 @@ export default function Education() {
           </div>
         </div>
 
-        {/* Activities */}
-        <div className="bg-gradient-to-br from-pink-50 to-rose-50 border border-pink-100 rounded-2xl p-8 mb-8">
-          <p className="text-sm font-semibold text-gray-500 uppercase tracking-widest mb-4">
-            Activities & Involvement
-          </p>
-          <div className="flex flex-col gap-3">
-            {activities.map((a, i) => (
-              <div
-                key={i}
-                className="flex items-center justify-between bg-white rounded-xl px-5 py-3 border border-pink-100"
-              >
-                <div>
-                  <p className="font-medium text-gray-700 text-sm">{a.name}</p>
-                  <p className="text-pink-400 text-xs">{a.role}</p>
-                </div>
-                <span className="text-xs text-gray-400">{a.period}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-
         {/* Awards / Honors */}
-        <div className="bg-gradient-to-br from-pink-50 to-rose-50 border border-pink-100 rounded-2xl p-8 mb-8">
+        <div className="bg-pink-50 border border-pink-100 rounded-2xl p-8 mb-8">
           <p className="text-sm font-semibold text-gray-500 uppercase tracking-widest mb-4">
             Honors & Awards
           </p>
@@ -148,6 +127,27 @@ export default function Education() {
                   <p className="font-medium text-gray-700 text-sm">{a.award}</p>
                   <p className="text-pink-400 text-xs">{a.detail}</p>
                 </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Activities */}
+        <div className="bg-pink-50 border border-pink-100 rounded-2xl p-8 mb-8">
+          <p className="text-sm font-semibold text-gray-500 uppercase tracking-widest mb-4">
+            Activities & Involvement
+          </p>
+          <div className="flex flex-col gap-3">
+            {activities.map((a, i) => (
+              <div
+                key={i}
+                className="flex items-center justify-between bg-white rounded-xl px-5 py-3 border border-pink-100"
+              >
+                <div>
+                  <p className="font-medium text-gray-700 text-sm">{a.name}</p>
+                  <p className="text-pink-400 text-xs">{a.role}</p>
+                </div>
+                <span className="text-xs text-gray-400">{a.period}</span>
               </div>
             ))}
           </div>
