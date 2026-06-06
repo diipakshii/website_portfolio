@@ -1,10 +1,10 @@
-# Dipakshi Pal — Websire Portfolio
+# Dipakshi Pal — Website Portfolio
 
 A personal portfolio website built to explore front-end design through Next.js, TypeScript, and Tailwind CSS. 
 
 🔗 **Live Site:** [dipakshi.vercel.app](https://website-portfolio-cdn04dfbq-dipakshi-s-projects.vercel.app/)
 
-![Portfolio Preview](public/screenshot.png)
+![Portfolio Preview](public/Homepage.png)
 
 ---
 
