@@ -1,4 +1,4 @@
-# Dipakshi Pal — Website Portfolio
+# Website Portfolio
 
 A personal portfolio website built to explore front-end design through Next.js, TypeScript, and Tailwind CSS. 
 
