@@ -55,7 +55,7 @@ export default function Contact() {
         <p className="text-gray-400 text-lg leading-relaxed mb-12 max-w-xl mx-auto">
           I&apos;m currently looking for internships and exciting projects to
           work on. Whether you have a question, an opportunity, or just want to
-          say hi — my inbox is always open!
+          say hi, my inbox is always open!
         </p>
 
         {/* Primary CTA */}
